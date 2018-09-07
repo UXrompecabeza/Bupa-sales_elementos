@@ -46,3 +46,103 @@
     width: 49%;
   }
 }
+
+/* REGLAS MENU */
+
+.nav-title .ac-label {
+  position: relative;
+  padding: 0;
+  margin-bottom: 0;
+  display: block;
+  cursor: pointer;
+  display: block;
+  color: #333;
+  font-family: "GothamBold";
+  padding: 1em 2.5em;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.ac-input:checked + .ac-label {
+  color: #0079c8;
+}
+
+.ac-input {
+  display: none!important;
+}
+
+.ac-text, .ac-sub-text {
+  max-height: 0;
+  margin: 0;
+  transition: max-height .5s linear;
+  overflow: hidden;
+}
+
+.ac-input:checked ~ .ac-text { 
+  max-height: 45vh;
+}
+.ac-sub .ac-input:checked ~ .ac-sub-text { 
+  max-height: 15vh;
+}
+
+.ac-sub .ac-label {
+  padding: .3em 0 .3em 4em;
+  font-family: 'GothamBook';
+  margin-bottom: 0;
+}
+
+.plus:before {
+  content: "+";
+  position: absolute;
+  left: 1.7em;
+  font-size: 20px;
+  top: -1px;
+}
+
+.ac-sub .ac-label:checked .plus {
+  color: #0079c8;
+}
+
+.circle-alert {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d81e05;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  line-height: 22px;
+}
+
+.ac-text .a {
+  position: relative;
+}
+.ac-text .a span {
+  position: absolute;
+  right: 18px;
+  top: 10px;
+  font-family: "GothamBook";
+  font-size: 10px;
+}
+.ac-text li:last-child {
+  padding-bottom: 1.5em;
+}
+.ac-sub-text {
+  list-style: none;
+  padding: 0 0 0 5em;
+  margin: 0;
+}
+.ac-sub-text li {
+  margin: .5em 0 .5em;
+}
+.ac-sub-text li:last-child {
+  padding-bottom: .5em;
+}
+.ac-sub-text a {
+  font-size: 12px;
+  color: #333;
+}
