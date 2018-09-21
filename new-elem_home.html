@@ -46,7 +46,7 @@
         <ul>
           <!-- Elemento acordeon -->
           <li class="nav-title">
-            <input class="ac-input" id="resumen"  name="resumen" type="checkbox" />
+            <input class="ac-input" id="resumen" name="resumen" type="checkbox" />
             <label class="ac-label" for="resumen" name="home">Resumen</label>
           </li>
           <!-- Fin elemento acordeon -->
@@ -59,7 +59,7 @@
           <!-- Elemento acordeon -->
           <li class="nav-title">
             <input class="ac-input" id="mantencion" name="mantencion" type="checkbox" />
-            <label class="ac-label" for="mantencion">Mantención</label>
+            <label class="ac-label" for="mantencion">Mantención<i class="arrow"></i></label>
             <ul class="ac-text ac-sub">
               <li class="nav-title">
                 <input class="ac-input" id="carrera" name="carrera" type="checkbox" />
@@ -78,7 +78,7 @@
           <!-- Elemento acordeon -->
           <li class="nav-title">
             <input class="ac-input" id="venta" name="venta" type="checkbox" />
-            <label class="ac-label" for="venta">Venta</label>
+            <label class="ac-label" for="venta">Venta<i class="arrow"></i></label>
             <ul class="ac-text ac-sub">
               <li><label class="ac-label" name="referidos-propios">Clientes Referidos</label></li>
             </ul>
@@ -87,7 +87,9 @@
           <!-- Elemento acordeon -->
           <li class="nav-title">
             <input class="ac-input" id="alertas" name="alertas" type="checkbox" />
-            <label class="ac-label" for="alertas">Mis Alertas<div class="circle-alert">33</div></label>
+            <label class="ac-label" for="alertas">Mis Alertas<i class="arrow"></i>
+              <div class="circle-alert">33</div>
+            </label>
             <ul class="ac-text ac-sub">
               <li><label class="ac-label a">Reclamos<span>10</span></label></li>
               <li><label class="ac-label a">NPS negativo<span>13</span></label></li>
@@ -130,64 +132,135 @@
         <!-- Inicio contenido tabs -->
         <div id="tab-mantencion" class="content-tab current">
           <div class="container">
-            <div class="head-title">
-              <h2><a href="referidos-propios.html" title="Campaña Cliente Referidos">Plan Carrera</a></h2>
-              <p>Total: 100</p>
-            </div>
-            <form action="">
-              <div class="row">
-                <div class="tab-cloud no-fixed">
-                  <div class="cloud asig open">125 <span>Asignados</span></div>
-                  <div class="cloud contact open">12 <span>Contacto</span></div>
-                  <div class="cloud interv open">6 <span>Entrevista</span></div>
-                  <div class="cloud doc open">9 <span>Documento</span></div>
-                  <div class="cloud closed open">2 <span>Cerrados</span></div>
-                </div>
-              </div>
-            </form>
-            <div class="row">
-              <div class="info-tab">
-                <div id="tab-a" class="content-tab current">
-                  <div class="canvas-holder">
-                    <canvas id="chart-area" />
+            <ul class="accordeon-plans">
+              <li>
+                <input class="ac-input" id="plan-carrera" name="plan-carrera" type="checkbox" />
+                <label class="ac-label head-title" for="plan-carrera"><h2> <a href="referidos-propios.html">Plan Carrera</a></h2>
+                  <p>Total: 100</p><i class="arrow"></i>
+                </label>
+                <form action="">
+                  <div class="row">
+                    <div class="tab-cloud no-fixed">
+                      <div class="cloud asig open">125 <span>Asignados</span></div>
+                      <div class="cloud contact">12 <span>Contacto</span></div>
+                      <div class="cloud interv">6 <span>Entrevista</span></div>
+                      <div class="cloud doc">9 <span>Documento</span></div>
+                      <div class="cloud closed">2 <span>Cerrados</span></div>
+                    </div>
+                  </div>
+                </form>
+                <div class="ac-text row">
+                  <div class="info-tab">
+                    <div id="tab-a" class="content-tab current">
+                      <div class="canvas-holder">
+                        <canvas id="chart-area" />
+                      </div>
+                    </div>
+                    <div id="tab-b" class="content-tab">
+                      <div class="canvas-holder">
+                        <canvas id="chart-area-ab" />
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div id="tab-b" class="content-tab">
-                  <div class="canvas-holder">
-                    <canvas id="chart-area-ab" />
+              </li>
+              <div class="hr-grey_full"></div>
+              <li>
+                <input class="ac-input" id="futura-mama" name="futura-mama" type="checkbox" />
+                <label class="ac-label head-title" for="futura-mama"><h2>Futura Mamá</h2>
+                  <p>Total: 100</p><i class="arrow"></i>
+                </label>
+                <form action="">
+                  <div class="row">
+                    <div class="tab-cloud no-fixed">
+                      <div class="cloud asig">125 <span>Asignados</span></div>
+                      <div class="cloud contact">12 <span>Contacto</span></div>
+                      <div class="cloud interv">6 <span>Entrevista</span></div>
+                      <div class="cloud doc">9 <span>Documento</span></div>
+                      <div class="cloud closed">2 <span>Cerrados</span></div>
+                    </div>
                   </div>
+                </form>
+                <div class="ac-text row">
+                  <!-- <div class="info-tab">
+                    <div id="tab-c" class="content-tab current">
+                      <div class="canvas-holder">
+                        <canvas id="chart-area2" />
+                      </div>
+                    </div>
+                    <div id="tab-d" class="content-tab">
+                      <div class="canvas-holder">
+                        <canvas id="chart-area-cd" />
+                      </div>
+                    </div>
+                  </div> -->
                 </div>
-              </div>
-            </div>
+              </li>
+              <div class="hr-grey_full"></div>
+              <li>
+                <input class="ac-input" id="benef-cesantia" name="benef-cesantia" type="checkbox" />
+                <label class="ac-label head-title" for="benef-cesantia"><h2>Beneficio Cesantía</h2>
+                  <p>Total: 100</p><i class="arrow"></i>
+                </label>
+                <form action="">
+                  <div class="row">
+                    <div class="tab-cloud no-fixed">
+                      <div class="cloud asig">125 <span>Asignados</span></div>
+                      <div class="cloud contact">12 <span>Contacto</span></div>
+                      <div class="cloud interv">6 <span>Entrevista</span></div>
+                      <div class="cloud doc">9 <span>Documento</span></div>
+                      <div class="cloud closed">2 <span>Cerrados</span></div>
+                    </div>
+                  </div>
+                </form>
+                <!-- <div class="ac-text row">
+                  <div class="info-tab">
+                    <div id="tab-a" class="content-tab current">
+                      <div class="canvas-holder">
+                        <canvas id="chart-area" />
+                      </div>
+                    </div>
+                    <div id="tab-b" class="content-tab">
+                      <div class="canvas-holder">
+                        <canvas id="chart-area-ab" />
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </li>
+            </ul>
           </div>
         </div>
         <div id="tab-venta" class="content-tab">
           <div class="container">
-            <div class="head-title">
-              <h2><a href="referidos-propios.html" title="Campaña Cliente Referidos">Campaña Cliente Referidos</a></h2>
-              <p>Total: 125 prospectos</p>
-            </div>
-            <form action="">
-              <div class="row">
-                <div class="tab-cloud no-fixed">
-                  <div class="cloud asig open">125 <span>Asignados</span></div>
-                  <div class="cloud contact open">12 <span>Contacto</span></div>
-                  <div class="cloud interv open">6 <span>Entrevista</span></div>
-                  <div class="cloud doc open">9 <span>Documento</span></div>
-                  <div class="cloud closed open">2 <span>Cerrados</span></div>
-                </div>
-              </div>
-            </form>
-            <div class="row">
-              <div class="info-tab">
-                <!-- info-tab -->
-                <div id="tab-Ba" class="content-tab current">
-                  <div class="canvas-holder">
-                    <canvas id="chart-area-b" />
+            <ul class="accordeon-plans">
+              <li>
+                <input class="ac-input" id="referidos" name="referidos" type="checkbox" />
+                <label class="ac-label head-title" for="referidos"><h2>Clientes Referidos</h2>
+                  <p>Total: 100</p><i class="arrow"></i>
+                </label>
+                <form action="">
+                  <div class="row">
+                    <div class="tab-cloud no-fixed">
+                      <div class="cloud asig">125 <span>Asignados</span></div>
+                      <div class="cloud contact">12 <span>Contacto</span></div>
+                      <div class="cloud interv">6 <span>Entrevista</span></div>
+                      <div class="cloud doc">9 <span>Documento</span></div>
+                      <div class="cloud closed">2 <span>Cerrados</span></div>
+                    </div>
+                  </div>
+                </form>
+                <div class="ac-text row">
+                  <div class="info-tab">
+                    <div id="tab-Ba" class="content-tab current">
+                      <div class="canvas-holder">
+                        <canvas id="chart-area-b" />
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div><!-- Fin contenido tabs -->
       </div>

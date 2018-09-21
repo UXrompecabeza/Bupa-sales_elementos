@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#0077c6">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0077c6">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>Cruz Blanca - Prospectos</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/skeleton.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/plan-carrera.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <div class="mobile-info">Simular</div>
+        <div class="container">
+            <h1><a href="home.html" title="Cruz Blanca"><img src="img/logo-CB.png"></a></h1>
+            <a class="ham-menu" href="#" rel="nofollow" title="Ver menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="top-tools">
+                <div class="finder u-pull-left">
+                    <form action="">
+                        <input type="text" placeholder="¿Buscas un prospecto?">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </div>
+                <div class="user u-pull-left">
+                    <a href="#" title="Opciones">Opciones</a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a title="Resumen" href="home.html">Resumen</a></li>
+                    <li><a title="Referidos Propios" href="referidos-propios.html">Referidos Propios</a></li>
+                    <li><a title="Campaña Ex Clientes" href="referidos-propios.html">Campaña Ex Clientes</a></li>
+                    <li class="active"><a title="Campaña Referidos" href="index.html">Campaña Referidos</a></li>
+                    <li><a title="Mi Maletin" href="maletin.html">Mi Maletin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li>Estás en: </li>
+                <li><a href="#" title="Prospectos">Prospectos</a></li>
+                <li>Simular</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="head-title">
+                <h2>Simular</h2>
+            </div>
+            <div class="steps-wizard hidden-lg"><!-- pasos -->
+                <div class="row">
+                    <div class="three columns steps active">
+                        <div class="step-content">
+                            <div class="text-center step-num">
+                                <span>1</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <div class="step-info text-center">
+                                Datos Cotizante
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three columns steps active">
+                        <div class="step-content">
+                            <div class="text-center step-num">
+                                <span>2</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <div class="step-info text-center">
+                                Cotización
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three columns steps active">
+                        <div class="step-content">
+                            <div class="text-center step-num">
+                                <span>3</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <div class="step-info text-center">
+                                Resultado
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="three columns steps">
+                        <div class="step-content">
+                            <div class="text-center step-num">
+                                <span>4</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <div class="step-info text-center">
+                                Beneficios
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div><!-- fin pasos -->
+
+            <div class="title-step">
+                <h3><span>3</span> Resultado</h3>
+            </div>
+
+            <div class="row">
+                <div class="twelve columns">
+                    <div class="title-block">
+                        <h4>Resumen</h4>
+                    </div>
+                    <div class="table-resumen">
+                        <ul>
+                            <li>Cotizante 1</li>
+                            <li><strong>Género:</strong> Masculino</li>
+                            <li><strong>Edad:</strong> 51</li>
+                        </ul>
+                        <ul>
+                            <li><strong>Cotización:</strong> UF  3,136</li>
+                            <li><strong>Adicional:</strong> UF 1</li>
+                            <li><strong>Total:</strong> UF  4,136</li>
+                        </ul>
+                        <ul>
+                            <li><strong>Cobertura Maternal:</strong> Normal</li>
+                            <li><strong>Otras Coberturas Reducidas:</strong> Normal</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hr-grey_full"></div>
+                <div class="five columns">
+                    <div class="aporte">
+                        <label>Aporte adicional</label>
+                        <form class="aporte-form js">
+                            <div class="value-button minus">-</div>
+                            <span class="clpSign">$</span>
+                            <input type="text" class="qty" value="0"/>
+                            <div class="value-button add">+</div>
+                            <input class="rangeInput" type="range" name="amountRange" min="0" max="100000" value="0" step="5000" style="--min: 0;
+                            --max: 100000;
+                            --val: 0;"/>
+                        </form>
+                    </div>
+                </div>
+                <div class="three columns top2">
+                    <div class="center">
+                        <a class="button button-border" href="beneficios-adicionales.html" title="Cotizar Beneficios Adicionales"><span>Actualizar cotización</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+
+                <div class="item-accordion"><!-- item-accordion -->
+                    <h5 class="open">Be Clever</h5>
+                    <div class="content-accordion" style="display: block;">
+                        <div class="btn-tools">
+                            <a href="#" title="Video"><i class="icon icon-video">&nbsp;</i> Video</a>
+                        </div>
+                        <div class="responsive-tbl">
+                            <table class="table-brand list-tbl" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <th></th>
+                                    <th>Plan</th>
+                                    <th>Valor</th>
+                                    <th>Descripción</th>
+                                    <th class="txt-center">Plan</th>
+                                    <th class="txt-center">NPV</th>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Clínica Preferente Indisa</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Clínica Indisa 8590</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Clínica Indisa 8590</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div><!-- fin item-accordion -->
+
+                <div class="item-accordion"><!-- item-accordion -->
+                    <h5>Preferente</h5>
+                    <div class="content-accordion">
+                        <div class="btn-tools">
+                            <a href="#" title="Video"><i class="icon icon-video">&nbsp;</i> Video</a>
+                        </div>
+                        <div class="responsive-tbl">
+                            <table class="table-brand list-tbl" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <th></th>
+                                    <th>Plan</th>
+                                    <th>Valor</th>
+                                    <th>Descripción</th>
+                                    <th class="txt-center">Plan</th>
+                                    <th class="txt-center">NPV</th>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Max Salud Plus 1200</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Salud Soltero MAX 2500</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Salud Total 2345</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div><!-- fin item-accordion -->
+
+                <div class="item-accordion"><!-- item-accordion -->
+                    <h5><a href="#modal-preferente" class="open-modal">Campus Bupa</a></h5>
+                    <div class="content-accordion">
+                        <div class="btn-tools">
+                            <a href="#" title="Video"><i class="icon icon-video">&nbsp;</i> Video</a>
+                        </div>
+                        <div class="responsive-tbl">
+                            <table class="table-brand list-tbl" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <th></th>
+                                    <th>Plan</th>
+                                    <th>Valor</th>
+                                    <th>Descripción</th>
+                                    <th class="txt-center">Plan</th>
+                                    <th class="txt-center">NPV</th>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Clínica Preferente indisa</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Clínica indisa 8590</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Clínica indisa 8590</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div><!-- fin item-accordion -->
+
+                <div class="item-accordion"><!-- item-accordion -->
+                    <h5>Libre Elección</h5>
+                    <div class="content-accordion">
+                        <div class="btn-tools">
+                            <a href="#" title="Video"><i class="icon icon-video">&nbsp;</i> Video</a>
+                        </div>
+                        <div class="responsive-tbl">
+                            <table class="table-brand list-tbl" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <th></th>
+                                    <th>Plan</th>
+                                    <th>Valor</th>
+                                    <th>Descripción</th>
+                                    <th class="txt-center">Plan</th>
+                                    <th class="txt-center">NPV</th>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Clínica Preferente Indisa</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Clínica indisa 8590</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="check-element"><input type="checkbox"></td>
+                                    <td><strong>Clínica indisa 8590</strong></td>
+                                    <td>UF 3.700</td>
+                                    <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                    <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                    <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div><!-- fin item-accordion -->
+            </div>
+            <br>
+            <div class="row">
+                <div class="four columns">
+                    <div class="form-control double-field">
+                        <label>Código plan</label>
+                        <input type="text" placeholder="Ingresar código plan" >
+                        <button class="button button-primary" type="submit"><i class="icon icon-search">&nbsp;</i></button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="btn-center">
+                    <a class="button button-info" href="simular-paso2.html" title="Volver"><span>Volver</span></a>
+                    <a href="#modal-beneficios" class="open-modal button button-border"><span>Cotizar productos adicionales</span></a>
+                    <a class="button button-border" href="#" title="Promociones Sales"><span>Promociones</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-beneficios" class="small-dialog products zoom-anim-dialog mfp-hide">
+        <h2>Productos adicionales</h2>
+        <div class="form-style">
+            <form action="">
+                <div class="accordion">
+                    <div class="item-accordion"><!-- item-accordion -->
+                        <h5 class="open">Catastróficos</h5>
+                        <div class="content-accordion" style="display: block;">
+                            <div class="responsive-tbl">
+                                <table class="table-brand list-tbl" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th></th>
+                                        <th>Plan</th>
+                                        <th>Valor</th>
+                                        <th>Descripción</th>
+                                        <th class="txt-center">Plan</th>
+                                        <th class="txt-center">NPV</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Beneficio Bupa</strong></td>
+                                        <td>UF 3.700</td>
+                                        <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                        <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                        <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Beneficio Bupa</strong></td>
+                                        <td>UF 3.700</td>
+                                        <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                        <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                        <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Beneficio Bupa</strong></td>
+                                        <td>UF 3.700</td>
+                                        <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                        <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                        <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div><!-- fin item-accordion -->
+
+                    <div class="item-accordion"><!-- item-accordion -->
+                        <h5>Farmacia <span class="quantity u-pull-right">2</span></h5>
+                        <div class="content-accordion">
+                            <div class="responsive-tbl">
+                                <table class="table-brand list-tbl" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th></th>
+                                        <th>Plan</th>
+                                        <th>Valor</th>
+                                        <th class="txt-center"></th>
+                                        <th class="txt-center"></th>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox" checked></td>
+                                        <td><strong>Clínica Preferente indisa</strong></td>
+                                        <td>UF 3.700</td>
+                                        <td class="txt-center"></td>
+                                        <td class="txt-center"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox" checked></td>
+                                        <td><strong>Clínica indisa 8590</strong></td>
+                                        <td>UF 3.700</td>
+                                        <td class="txt-center"></td>
+                                        <td class="txt-center"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Clínica indisa 8590</strong></td>
+                                        <td>UF 3.700</td>
+                                        <td class="txt-center"></td>
+                                        <td class="txt-center"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div><!-- fin item-accordion -->
+
+                    <div class="item-accordion"><!-- item-accordion -->
+                        <h5>Farmacia Genérico</h5>
+                        <div class="content-accordion">
+                            <div class="responsive-tbl">
+                                <table class="table-brand list-tbl" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th></th>
+                                        <th>Plan</th>
+                                        <th>Valor</th>
+                                        <th>Descripción</th>
+                                        <th class="txt-center">Plan</th>
+                                        <th class="txt-center">NPV</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Clínica Preferente indisa</strong></td>
+                                        <td>UF 3.700</td>
+                                        <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                        <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                        <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Clínica indisa 8590</strong></td>
+                                        <td>UF 3.700</td>
+                                        <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                        <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                        <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Clínica indisa 8590</strong></td>
+                                        <td>UF 3.700</td>
+                                        <td class="no-show">Espacio para resaltar una característica del plan, antes de ingresar a ver el detalle o ingresar al video o al plan y NPV</td>
+                                        <td class="txt-center"><a class="btn-icon btn-pdf" href="#" title="Plan"><i class="icon icon-pdf">&nbsp;</i><span>Plan</span></a></td>
+                                        <td class="txt-center"><a class="btn-icon btn-npv" href="#" title="NPV"><i class="icon icon-npv">&nbsp;</i><span>NPV</span></a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div><!-- fin item-accordion -->
+
+                    <div class="item-accordion"><!-- item-accordion -->
+                        <h5>Dentales <span class="quantity u-pull-right">1</span></h5>
+                        <div class="content-accordion">
+                            <div class="responsive-tbl">
+                                <table class="table-brand list-tbl padding-list" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <th></th>
+                                        <th>Plan</th>
+                                        <th>Valor</th>
+                                        <th class="txt-center"></th>
+                                        <th class="txt-center"></th>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox" checked></td>
+                                        <td><strong>Integramédica Dental 70</strong></td>
+                                        <td>0.0 UF</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Odontológico Versalles Básico</strong></td>
+                                        <td>0.0 UF</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Odontológico Versalles Premium</strong></td>
+                                        <td>0.36 UF</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Plan Dental 708 MegaSalud</strong></td>
+                                        <td>0.0 UF</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Dental 80 Ext Integramédica</strong></td>
+                                        <td>0.0 UF</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="check-element"><input type="checkbox"></td>
+                                        <td><strong>Dental 70 Plus Integramédica</strong></td>
+                                        <td>0.0 UF</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div><!-- fin item-accordion -->
+                </div>
+                <br>
+                <a class="button button-border mfp-close" >Agregar productos</a>
+            </form>
+
+        </div>
+    </div>
+    <div id="modal-preferente" class="small-dialog zoom-anim-dialog mfp-hide">
+        <h2>Plan Preferente 3</h2>
+        <div class="form-style">
+            <form action="">
+                <div class="form-control">
+                    <label>Seleccione prestador 1</label>
+                    <div class="select-style">
+                        <select>
+                            <option value="">CLÍNICA INDISA</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label>Seleccione prestador 2</label>
+                    <div class="select-style">
+                        <select>
+                            <option value="">Seleccione prestador 2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <button type="submit" class="button button-block button-primary"><span>Continuar</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>-->
+    <script src="js/jquery.min-3.2.1.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.rut.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/new-elem_home.js"></script>
+
+</body>
+</html>

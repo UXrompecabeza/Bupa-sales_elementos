@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#0077c6">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0077c6">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Cruz Blanca - Prospectos</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/skeleton.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- CSS para elementos nuevos -->
+    <link href="css/plan-carrera.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="mobile-info">Simular</div>
+        <div class="container">
+            <h1><a href="home.html" title="Cruz Blanca"><img src="img/logo-CB.png"></a></h1>
+            <a class="ham-menu" href="#" rel="nofollow" title="Ver menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="top-tools">
+                <div class="finder u-pull-left">
+                    <form action="">
+                        <input type="text" placeholder="¿Buscas un prospecto?">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </div>
+                <div class="user u-pull-left">
+                    <a href="#" title="Opciones">Opciones</a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a title="Resumen" href="home.html">Resumen</a></li>
+                    <li><a title="Referidos Propios" href="referidos-propios.html">Referidos Propios</a></li>
+                    <li><a title="Campaña Ex Clientes" href="referidos-propios.html">Campaña Ex Clientes</a></li>
+                    <li class="active"><a title="Campaña Referidos" href="index.html">Campaña Referidos</a></li>
+                    <li><a title="Mi Maletin" href="maletin.html">Mi Maletin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li>Estás en: </li>
+                <li><a href="#" title="Prospectos">Prospectos</a></li>
+                <li>Simular</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="head-title">
+                <h2>Simular</h2>
+            </div>
+            <div class="steps-wizard hidden-lg">
+                <!-- pasos -->
+                <div class="row">
+                    <div class="four columns steps active">
+                        <div class="step-content">
+                            <div class="text-center step-num">
+                                <span>1</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <div class="step-info text-center">
+                                Datos Cotizante
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four columns steps">
+                        <div class="step-content">
+                            <div class="text-center step-num">
+                                <span>2</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <div class="step-info text-center">
+                                Cotización
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four columns steps">
+                        <div class="step-content">
+                            <div class="text-center step-num">
+                                <span>3</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <div class="step-info text-center">
+                                Resultado
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- fin pasos -->
+            <form action="#">
+                <div class="title-step">
+                    <h3><span>1</span> Datos del cotizante</h3>
+                </div>
+                <div class="item-form">
+                    <!-- item-form -->
+                    <div class="row">
+                        <div class="six columns">
+                            <label>Tipo de contrato</label>
+                            <div class="form-control">
+                                <div class="mobile-radio">
+                                    <input type="radio" id="individual" name="type-contract" checked />
+                                    <label for="individual">Individual</label>
+                                </div>
+                                <!--<div class="mobile-radio">
+                                    <input type="radio" id="compensado" name="type-contract" />
+                                    <label for="compensado">Compensado</label>
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="six columns">
+                            <label>Tipo cobertura maternal</label>
+                            <div class="form-control">
+                                <div class="mobile-radio">
+                                    <input type="radio" id="cob-normal" name="type-cob" />
+                                    <label for="cob-normal">Normal</label>
+                                </div>
+                                <div class="mobile-radio">
+                                    <input type="radio" id="cob-reducida" name="type-cob" />
+                                    <label for="cob-reducida">Reducida</label>
+                                </div>
+                                <div class="mobile-radio">
+                                    <input type="radio" id="cob-ambas" name="type-cob" />
+                                    <label for="cob-ambas">Ambas</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- fin item-form -->
+                <div class="item-form">
+                    <!-- item-form -->
+                    <div class="row">
+                        <div class="six columns">
+                            <label>Género</label>
+                            <div class="form-control">
+                                <div class="mobile-radio">
+                                    <input type="radio" id="masculino" name="gen" />
+                                    <label for="masculino">Masculino</label>
+                                </div>
+                                <div class="mobile-radio">
+                                    <input type="radio" id="femenino" name="gen" />
+                                    <label for="femenino">Femenino</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="six columns">
+                            <div class="form-control data-error">
+                                <label>Fecha nacimiento</label>
+                                <div class="three-select">
+                                    <div class="select-style">
+                                        <select>
+                                            <option value="">01</option>
+                                            <option value="">02</option>
+                                            <option value="">03</option>
+                                            <option value="">04</option>
+                                            <option value="">05</option>
+                                            <option value="">06</option>
+                                            <option value="">07</option>
+                                            <option value="">08</option>
+                                        </select>
+                                    </div>
+                                    <div class="select-style">
+                                        <select>
+                                            <option value="">Enero</option>
+                                            <option value="">Febrero</option>
+                                            <option value="">Marzo</option>
+                                            <option value="">Abril</option>
+                                            <option value="">Mayo</option>
+                                            <option value="">Junio</option>
+                                            <option value="">Julio</option>
+                                            <option value="">Agosto</option>
+                                            <option value="">Septiembre</option>
+                                            <option value="">Octubre</option>
+                                            <option value="">Noviembre</option>
+                                            <option value="">Diciembre</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="select-style">
+                                        <select>
+                                            <option value="">2001</option>
+                                            <option value="">2002</option>
+                                            <option value="">2003</option>
+                                            <option value="">2004</option>
+                                            <option value="">2005</option>
+                                            <option value="">2006</option>
+                                            <option value="">2007</option>
+                                            <option value="">2008</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <span class="data-error-tip">Este campo es obligatorio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="six columns">
+                            <div class="form-control">
+                                <label>Región</label>
+                                <div class="select-style">
+                                    <select>
+                                        <option value="">Seleccione Región</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="six columns">
+                            <div class="form-control">
+                                <label>Comuna</label>
+                                <div class="select-style">
+                                    <select>
+                                        <option value="">Santiago Centro</option>
+                                        <option value="">Providencia</option>
+                                        <option value="">Ñuñoa</option>
+                                        <option value="">Macul</option>
+                                        <option value="">Peñalolen</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row tabla-beneficiarios hide">
+                        <h3>Beneficiarios agregados al plan</h3>
+                        <table>
+                            <thead>
+                                <th>Género</th>
+                                <th>Edad</th>
+                                <th>Relación</th>
+                                <th>Tipo</th>
+                                <th></th>
+                                <th></th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Mascu.</td>
+                                    <td>43</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td><i class="icon icon-edit"></i> </td>
+                                    <td><i class="icon icon-delete"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Mascu.</td>
+                                    <td>12</td>
+                                    <td>hijo</td>
+                                    <td>legal</td>
+                                    <td><i class="icon icon-edit"></i> </td>
+                                    <td><i class="icon icon-delete"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="btn-center">
+                            <a href="#modal-beneficiario" class="add-benef open-modal">Agregar Beneficiario</a>
+                            <br>
+                            <a class="button button-info" href="index.html" title="Volver"><span>Volver</span></a>
+                            <a class="button button-primary" href="simular-paso2.html" title="Continuar"><span>Continuar</span></a>
+                        </div>
+                    </div>
+                </div><!-- fin item-form -->
+                <div id="modal-beneficiario" class="small-dialog zoom-anim-dialog mfp-hide">
+                    <h2>Datos del Beneficiario</h2>
+                    <div class="form-style">
+                        <form action="">
+                            <div class="item-form">
+                                <!-- item-form -->
+                                <div class="row">
+                                    <div class="six columns">
+                                        <label>Género</label>
+                                        <div class="form-control">
+                                            <div class="mobile-radio">
+                                                <input type="radio" id="masculino" name="gen" />
+                                                <label for="masculino">Masculino</label>
+                                            </div>
+                                            <div class="mobile-radio">
+                                                <input type="radio" id="femenino" name="gen" />
+                                                <label for="femenino">Femenino</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="twelve columns">
+                                        <label>Edad o fecha de nacimiento</label>
+                                        <div class="form-control">
+                                            <div class="mobile-radio">
+                                                <input type="radio" class="ageOrBirthday" id="age" name="age" value="age" checked />
+                                                <label for="age">Edad</label>
+                                            </div>
+                                            <div class="mobile-radio">
+                                                <input type="radio" class="ageOrBirthday" id="date" name="age" value="date" />
+                                                <label for="date">Fecha nacimiento</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="age-input">
+                                        <input type="text" placeholder="Ej: 16">
+                                    </div>
+                                    <div id="age-select" class="twelve columns hide">
+                                        <div class="form-control">
+                                            <div class="three-select">
+                                                <div class="select-style">
+                                                    <select>
+                                                        <option value="">01</option>
+                                                        <option value="">02</option>
+                                                        <option value="">03</option>
+                                                        <option value="">04</option>
+                                                        <option value="">05</option>
+                                                        <option value="">06</option>
+                                                        <option value="">07</option>
+                                                        <option value="">08</option>
+                                                    </select>
+                                                </div>
+                                                <div class="select-style">
+                                                    <select>
+                                                        <option value="">Enero</option>
+                                                        <option value="">Febrero</option>
+                                                        <option value="">Marzo</option>
+                                                        <option value="">Abril</option>
+                                                        <option value="">Mayo</option>
+                                                        <option value="">Junio</option>
+                                                        <option value="">Julio</option>
+                                                        <option value="">Agosto</option>
+                                                        <option value="">Septiembre</option>
+                                                        <option value="">Octubre</option>
+                                                        <option value="">Noviembre</option>
+                                                        <option value="">Diciembre</option>
+
+                                                    </select>
+                                                </div>
+                                                <div class="select-style">
+                                                    <select>
+                                                        <option value="">2001</option>
+                                                        <option value="">2002</option>
+                                                        <option value="">2003</option>
+                                                        <option value="">2004</option>
+                                                        <option value="">2005</option>
+                                                        <option value="">2006</option>
+                                                        <option value="">2007</option>
+                                                        <option value="">2008</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="twelve columns">
+                                        <div class="form-control">
+                                            <label>Relación</label>
+                                            <div class="select-style">
+                                                <select>
+                                                    <option value=""></option>
+                                                    <option selected="selected" value="COTIZANTE">COTIZANTE</option>
+                                                    <option value="CONYUGE">CONYUGE</option>
+                                                    <option value="HIJO">HIJO</option>
+                                                    <option value="MADRE">MADRE</option>
+                                                    <option value="PADRE">PADRE</option>
+                                                    <option value="OTRO">OTRO</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="button button-border mfp-close" title="Guardar Beneficiario" id="verTabla">Guardar Beneficiario</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!--<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>-->
+    <script src="js/jquery.min-3.2.1.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.rut.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/new-elem_home.js"></script>
+
+</body>
+
+</html>

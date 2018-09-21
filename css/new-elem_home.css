@@ -1,3 +1,4 @@
+@font-face{font-family:'Gotham-Medium';src:url("fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"),url("fonts/Gotham-Medium.otf") format("opentype"),url("fonts/Gotham-Medium.woff") format("woff"),url("fonts/Gotham-Medium.ttf") format("truetype"),url("fonts/Gotham-Medium.svg#Gotham-Medium") format("svg");font-weight:normal;font-style:normal}
 
 .tabs-content {
   margin: 1.5em auto;
@@ -36,15 +37,6 @@
 }
 .open.tabs span {
   color: #0079c8;
-}
-
-@media (max-width: 900px){
-  .tabs-content {
-    width: 100%;
-  }
-  .tabs {
-    width: 49%;
-  }
 }
 
 /* REGLAS MENU */
@@ -109,7 +101,7 @@
   border-radius: 50%;
   background: #d81e05;
   position: absolute;
-  right: 15px;
+  right: 4em;
   top: 15px;
   font-size: 10px;
   font-weight: 400;
@@ -145,4 +137,90 @@
 .ac-sub-text a {
   font-size: 12px;
   color: #333;
+}
+
+.nav-title .arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  margin: .2em;
+  padding: 3px;
+  transform: rotate(45deg);
+  transition: .5s;
+  position: absolute;
+  right: 1em;
+  top: 1.3em;
+}
+
+.ac-input:checked + .ac-label .arrow {
+  transform: rotate(-135deg);
+  border: solid #0079c8;
+  border-width: 0 2px 2px 0;
+  top: 1.4em;
+}
+
+/* REGLAS ACORDEON PLANES */
+
+.accordeon-plans li {
+  list-style: none;
+}
+.accordeon-plans h2 {
+  font-family: 'Gotham-Medium';
+  font-size: 36px;
+}
+.accordeon-plans p {
+  font-family: 'Gotham-Medium';
+  font-size: 14px;
+  color: #7a7a7a;
+}
+.accordeon-plans .head-title {
+  position: relative;
+}
+
+.accordeon-plans .arrow {
+  border: solid #0079c8;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin: .2em;
+  padding: 5px;
+  transform: rotate(45deg);
+  transition: .5s;
+  position: absolute;
+  right: 1em;
+  top: 1.3em;
+}
+
+.accordeon-plans .ac-input:checked ~ .ac-text { 
+  max-height: 45vh!important;
+}
+
+.accordeon-plans .ac-input:checked + .ac-label .arrow {
+  transform: rotate(-135deg);
+  border-width: 0 3px 3px 0;
+  top: 1.4em;
+}
+.hr-grey_full {
+  margin: 0;
+  border-width: 1px;
+  border-top: 1px solid #b5b6b8;
+  width: 100%;
+}
+.head-title h2 a {
+  background: none;
+}
+.finder.u-pull-left input {
+  min-width: 15em;
+  width: 80%;
+}
+
+@media (max-width: 900px){
+  .accordeon-plans h2 {
+    font-size: 18px;
+  }
+  .tabs-content {
+    width: 100%;
+  }
+  .tabs {
+    width: 49%;
+  }
 }

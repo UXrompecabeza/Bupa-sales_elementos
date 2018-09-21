@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#0077c6">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0077c6">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Cruz Blanca - Gestión</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/skeleton.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- CSS para elementos nuevos -->
+    <link href="css/new-elem_home.css" rel="stylesheet">
+    <link href="css/plan-carrera.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="mobile-info">Gestionar</div>
+        <div class="container">
+            <h1><a href="home.html" title="Cruz Blanca"><img src="img/logo-CB.png"></a></h1>
+            <a class="ham-menu" href="#" rel="nofollow" title="Ver menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="top-tools">
+                <div class="finder u-pull-left">
+                    <form action="">
+                        <input type="text" placeholder="Ingresa nombre o RUT del cliente">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </div>
+                <div class="user u-pull-left">
+                    <a href="#" title="Opciones">Opciones</a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <!-- Elemento acordeon -->
+                    <li class="nav-title">
+                        <input class="ac-input" id="resumen" name="resumen" type="checkbox" />
+                        <label class="ac-label" for="resumen" name="home">Resumen</label>
+                    </li>
+                    <!-- Fin elemento acordeon -->
+                    <!-- Elemento acordeon -->
+                    <li class="nav-title">
+                        <input class="ac-input" id="referido" name="referido" type="checkbox" />
+                        <label class="ac-label" for="referido" name="ingreso-referido-propio">Crear Referido</label>
+                    </li>
+                    <!-- Fin elemento acordeon -->
+                    <!-- Elemento acordeon -->
+                    <li class="nav-title">
+                        <input class="ac-input" id="mantencion" name="mantencion" type="checkbox" />
+                        <label class="ac-label" for="mantencion">Mantención<i class="arrow"></i></label>
+                        <ul class="ac-text ac-sub">
+                            <li class="nav-title">
+                                <input class="ac-input" id="carrera" name="carrera" type="checkbox" />
+                                <label class="ac-label plus" for="carrera">Plan Carrera</label>
+                                <ul class="ac-sub-text">
+                                    <li><a href="#">Plan carrera - Agosto</a></li>
+                                    <li><a href="#">Plan carrera - Septiembre</a></li>
+                                </ul>
+                            </li>
+                            <li><label class="ac-label">Futura Mamá</label></li>
+                            <li><label class="ac-label">Beneficio Cesantía</label></li>
+                            <li><label class="ac-label">Adecuación 201709</label></li>
+                        </ul>
+                    </li>
+                    <!-- Fin elemento acordeon -->
+                    <!-- Elemento acordeon -->
+                    <li class="nav-title">
+                        <input class="ac-input" id="venta" name="venta" type="checkbox" />
+                        <label class="ac-label" for="venta">Venta<i class="arrow"></i></label>
+                        <ul class="ac-text ac-sub">
+                            <li><label class="ac-label" name="referidos-propios">Clientes Referidos</label></li>
+                        </ul>
+                    </li>
+                    <!-- Fin elemento acordeon -->
+                    <!-- Elemento acordeon -->
+                    <li class="nav-title">
+                        <input class="ac-input" id="alertas" name="alertas" type="checkbox" />
+                        <label class="ac-label" for="alertas">Mis Alertas<i class="arrow"></i>
+                            <div class="circle-alert">33</div>
+                        </label>
+                        <ul class="ac-text ac-sub">
+                            <li><label class="ac-label a">Reclamos<span>10</span></label></li>
+                            <li><label class="ac-label a">NPS negativo<span>13</span></label></li>
+                            <li><label class="ac-label a">Carta de desafiliación<span>10</span></label></li>
+                        </ul>
+                    </li>
+                    <!-- Fin elemento acordeon -->
+                    <!-- Elemento acordeon -->
+                    <li class="nav-title">
+                        <input class="ac-input" id="maletin" name="maletin" type="checkbox" />
+                        <label class="ac-label" for="maletin" name="maletin">Mi Maletín</label>
+                    </li>
+                    <!-- Fin elemento acordeon -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li>Estás en: </li>
+                <li><a href="#" title="Prospectos">Prospectos</a></li>
+                <li>Gestión</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container no-paddingMobile">
+        <div class="row">
+            <div class="head-title">
+                <h2>Plan Carrera</h2>
+            </div>
+            <div class="box-resumen state-magenta">
+                <div class="title-box">
+                    <h3>Resumen</h3>
+                </div>
+                <!-- <div class="labels">
+                    <span class="new">N</span>
+                    <span class="ref">R</span>
+                </div> -->
+                <div class="inner-box">
+                    <ul class="dest-data">
+                        <li class="imp-data">Juan Pablo Muñoz Benavides</li>
+                        <li>12.527.987-7</li>
+                        <li>BeClever Salud 530</li>
+                        <li>UF 3.190</li>
+                        <li><strong>Origen:</strong> Colmena</li>
+                    </ul>
+                    <ul class="dest-data hidden-xs">
+                        <li>juan.pablo.munoz@gmail.com</li>
+                        <li>+569 9229 2435</li>
+                        <li>+569 9229 2435</li>
+                        <li>Av. Apoquindo #2829 Dpto 34, Las Condes, Santiago</li>
+                    </ul>
+                    <ul class="dest-data hidden-xs">
+                        <li>Asignado: 10/05/2017</li>
+                        <li><strong>Antiguedad estado:</strong> 15 días</li>
+                    </ul>
+                    <div class="btns">
+                        <a class="link-style more-details hidden-lg" href="#" title="Ver detalles">
+                            <div class="arrow"></div>
+                            Ver detalles
+                        </a>
+                        <a class="link-style" href="planes-cotizados.html" title="Planes Cotizados"><i class="icon icon-plan"
+                                aria-hidden="true"></i> Planes Cotizados</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="btn-center">
+                <a class="button button-back" href="index.html" title="Volver"><span>Volver</span></a>
+                <a class="button button-border open-modal" href="#modal-finaliza" title="Finalizar Gestión"><span>Finalizar
+                        Gestión</span></a>
+                <a class="button button-primary open-modal" href="#modal-nueva-gestion" title="Nueva gestión"><span>Nuevo
+                        contacto</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container state-magenta no-paddingMobile">
+        <div class="row">
+            <div class="title-box">
+                <h3>Bitácora de Gestiones</h3>
+            </div>
+
+            <div class="item-list">
+                <!-- item-list -->
+                <div class="list-box">
+                    <ul>
+                        <li>24/03/2017</li>
+                        <li>Contacto con tercero</li>
+                        <li>Dice su mamá que lo llame en la tarde porque ahora está en la oficina y no puede dar el
+                            teléfono.</li>
+                    </ul>
+                </div>
+                <div class="list-box">
+                    <ul>
+                        <li>24/03/2017</li>
+                        <li>Contacto con tercero</li>
+                        <li>Dice su mamá que lo llame en la tarde porque ahora está en la oficina y no puede dar el
+                            teléfono.</li>
+                    </ul>
+                </div>
+                <div class="list-box">
+                    <ul>
+                        <li>24/03/2017</li>
+                        <li>Contacto con tercero</li>
+                        <li>Dice su mamá que lo llame en la tarde porque ahora está en la oficina y no puede dar el
+                            teléfono.</li>
+                    </ul>
+                </div>
+                <div class="list-box">
+                    <ul>
+                        <li>24/03/2017</li>
+                        <li>Contacto con tercero</li>
+                        <li>Dice su mamá que lo llame en la tarde porque ahora está en la oficina y no puede dar el
+                            teléfono.</li>
+                    </ul>
+                </div>
+                <div class="list-box">
+                    <ul>
+                        <li>24/03/2017</li>
+                        <li>Contacto con tercero</li>
+                        <li>Dice su mamá que lo llame en la tarde porque ahora está en la oficina y no puede dar el
+                            teléfono.</li>
+                    </ul>
+                </div>
+            </div><!-- fin item-list -->
+
+            <div class="content-pagination">
+                <!-- content-pagination -->
+                <nav>
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous" class="arrow-pag disabled">
+                                ‹ <span class="hidden-xs label-pag">Página anterior</span>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">10</a></li>
+                        <li>
+                            <a href="#" aria-label="Next" class="arrow-pag">
+                                <span class="hidden-xs label-pag">Página siguiente</span> ›
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div><!-- fin content-pagination -->
+
+
+        </div>
+    </div>
+
+
+    <div id="modal-nueva-gestion" class="small-dialog zoom-anim-dialog mfp-hide">
+        <h2>Nueva Gestión</h2>
+        <div class="form-style">
+            <form action="">
+                <div class="form-control">
+                    <label>Estado</label>
+                    <div class="select-style">
+                        <select>
+                            <option value="contactandose">Contactándose</option>
+                            <option value="ausente">Ausente</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label>Tipo de contacto</label>
+                    <div class="select-style">
+                        <select>
+                            <option value="">Seleccione tipo de contacto</option>
+                            <option value="">Familiar</option>
+                            <option value="">Amigo</option>
+                            <option value="">Calle</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <textarea placeholder="Ingrese texto para histórico..."></textarea>
+                </div>
+                <div class="form-control">
+                    <a class="button button-sm button-border open-modal-no-close" href="#modal-agenda" title="Agendar"><i
+                            class="icon" aria-hidden="true"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1792px" height="1792px"
+                                viewBox="0 0 1792 1792" enable-background="new 0 0 1792 1792" xml:space="preserve">
+                                <path fill="#0077C6" d="M1536,256c34.667,0,64.667,12.667,90,38c25.333,25.333,38,55.333,38,90v1280c0,34.667-12.667,64.667-38,90
+	s-55.333,38-90,38H128c-34.667,0-64.667-12.667-90-38s-38-55.333-38-90V384c0-34.667,12.667-64.667,38-90
+	c25.333-25.333,55.333-38,90-38h128v-96c0-44,15.667-81.667,47-113S372,0,416,0h64c44,0,81.667,15.667,113,47s47,69,47,113v96h384
+	v-96c0-44,15.667-81.667,47-113s69-47,113-47h64c44,0,81.667,15.667,113,47s47,69,47,113v96H1536z M1152,160v288c0,9.333,3,17,9,23
+	s13.667,9,23,9h64c9.333,0,17-3,23-9s9-13.667,9-23V160c0-9.333-3-17-9-23s-13.667-9-23-9h-64c-9.333,0-17,3-23,9
+	S1152,150.667,1152,160z M384,160v288c0,9.333,3,17,9,23s13.667,9,23,9h64c9.333,0,17-3,23-9s9-13.667,9-23V160c0-9.333-3-17-9-23
+	s-13.667-9-23-9h-64c-9.333,0-17,3-23,9S384,150.667,384,160z M1536,1664V640H128v1024H1536z M896,1088h224c9.333,0,17,3,23,9
+	s9,13.667,9,23v64c0,9.333-3,17-9,23s-13.667,9-23,9H896v224c0,9.333-3,17-9,23s-13.667,9-23,9h-64c-9.333,0-17-3-23-9
+	s-9-13.667-9-23v-224H544c-9.333,0-17-3-23-9s-9-13.667-9-23v-64c0-9.333,3-17,9-23s13.667-9,23-9h224V864c0-9.333,3-17,9-23
+	s13.667-9,23-9h64c9.333,0,17,3,23,9s9,13.667,9,23V1088z" />
+                            </svg></i><span>Agendar</span></a>
+                </div>
+                <div class="form-control">
+                    <button type="submit" class="button button-block button-primary"><span>Grabar gestión</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div id="modal-agenda" class="small-dialog zoom-anim-dialog mfp-hide">
+        <h2>Seguimiento Outlook</h2>
+        <div class="form-style">
+            <form action="">
+                <div class="form-control">
+                    <label>Fecha</label>
+                    <div class="three-select">
+                        <div class="select-style">
+                            <select>
+                                <option value="">01</option>
+                                <option value="">02</option>
+                                <option value="">03</option>
+                                <option value="">04</option>
+                                <option value="">05</option>
+                                <option value="">06</option>
+                                <option value="">07</option>
+                                <option value="">08</option>
+                            </select>
+                        </div>
+                        <div class="select-style">
+                            <select>
+                                <option value="">Enero</option>
+                                <option value="">Febrero</option>
+                                <option value="">Marzo</option>
+                                <option value="">Abril</option>
+                                <option value="">Mayo</option>
+                                <option value="">Junio</option>
+                                <option value="">Julio</option>
+                                <option value="">Agosto</option>
+                                <option value="">Septiembre</option>
+                                <option value="">Octubre</option>
+                                <option value="">Noviembre</option>
+                                <option value="">Diciembre</option>
+
+                            </select>
+                        </div>
+                        <div class="select-style">
+                            <select>
+                                <option value="">2001</option>
+                                <option value="">2002</option>
+                                <option value="">2003</option>
+                                <option value="">2004</option>
+                                <option value="">2005</option>
+                                <option value="">2006</option>
+                                <option value="">2007</option>
+                                <option value="">2008</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label>Hora</label>
+                    <div class="select-style">
+                        <select>
+                            <option value="">12:00</option>
+                            <option value="">13:00</option>
+                            <option value="">14:00</option>
+                            <option value="">15:00</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label>Notificación</label>
+                    <div class="select-style">
+                        <select>
+                            <option value="">15 minutos antes</option>
+                            <option value="">1 día antes</option>
+                            <option value="">2 días antes</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <a href="#modal-nueva-gestion" class="button button-block button-primary open-modal" title="Enviar a Outlook"><span>Enviar
+                            a Outlook</span></a>
+                </div>
+                <div class="form-control">
+                    <a href="#modal-nueva-gestion" class="button button-block button-border open-modal" title="Cancelar"><span>Cancelar</span></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div id="modal-finaliza" class="small-dialog zoom-anim-dialog mfp-hide">
+        <h2>Finalizar Gestión</h2>
+        <div class="form-style">
+            <form action="">
+                <div class="form-control">
+                    <div class="mobile-radio">
+                        <input type="radio" id="success" name="result" />
+                        <label for="success">Con éxito</label>
+                    </div>
+                    <div class="mobile-radio">
+                        <input type="radio" id="noSuccess" name="result" />
+                        <label for="noSuccess">Sin éxito</label>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label>Motivo de finalizar</label>
+                    <div class="select-style">
+                        <select>
+                            <option value="">Seleccione motivo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <textarea placeholder="Ingrese texto para el email del cliente..."></textarea>
+                </div>
+                <div class="form-control">
+                    <button type="submit" class="button button-block button-primary"><span>Finalizar Gestión</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!--<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>-->
+    <script src="js/jquery.min-3.2.1.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.rut.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/new-elem_home.js"></script>
+
+</body>
+
+</html>

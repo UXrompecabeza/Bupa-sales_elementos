@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#0077c6">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0077c6">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Cruz Blanca - Plan Carrera</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/skeleton.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <link href="css/jquery-ui.min.css" rel="stylesheet">
+  <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- CSS para elementos nuevos -->
+  <link href="css/new-elem_home.css" rel="stylesheet">
+  <link href="css/plan-carrera.css" rel="stylesheet">
+</head>
+
+<body>
+  <img class="msg-fixed" src="img/icon_chat.svg" alt="">
+  <header>
+    <div class="mobile-info">Plan Carrera</div>
+    <div class="container">
+      <h1><a href="home.html" title="Cruz Blanca"><img src="img/logo-CB.png"></a></h1>
+      <a class="ham-menu" href="#" rel="nofollow" title="Ver menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <div class="top-tools">
+        <div class="finder u-pull-left">
+          <form action="">
+            <input type="text" placeholder="¿Buscas un prospecto?">
+            <button type="submit">Buscar</button>
+          </form>
+        </div>
+        <div class="user u-pull-left">
+          <a href="#" title="Opciones">Opciones</a>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <!-- Elemento acordeon -->
+          <li class="nav-title">
+            <input class="ac-input" id="resumen"  name="resumen" type="checkbox" />
+            <label class="ac-label" for="resumen" name="home">Resumen</label>
+          </li>
+          <!-- Fin elemento acordeon -->
+          <!-- Elemento acordeon -->
+          <li class="nav-title">
+            <input class="ac-input" id="referido" name="referido" type="checkbox" />
+            <label class="ac-label" for="referido" name="ingreso-referido-propio">Crear Referido</label>
+          </li>
+          <!-- Fin elemento acordeon -->
+          <!-- Elemento acordeon -->
+          <li class="nav-title">
+            <input class="ac-input" id="mantencion" name="mantencion" type="checkbox" />
+            <label class="ac-label" for="mantencion">Mantención<i class="arrow"></i></label>
+            <ul class="ac-text ac-sub">
+              <li class="nav-title">
+                <input class="ac-input" id="carrera" name="carrera" type="checkbox" />
+                <label class="ac-label plus" for="carrera">Plan Carrera</label>
+                <ul class="ac-sub-text">
+                  <li><a href="#">Plan carrera - Agosto</a></li>
+                  <li><a href="#">Plan carrera - Septiembre</a></li>
+                </ul>
+              </li>
+              <li><label class="ac-label">Futura Mamá</label></li>
+              <li><label class="ac-label">Beneficio Cesantía</label></li>
+              <li><label class="ac-label">Adecuación 201709</label></li>
+            </ul>
+          </li>
+          <!-- Fin elemento acordeon -->
+          <!-- Elemento acordeon -->
+          <li class="nav-title">
+            <input class="ac-input" id="venta" name="venta" type="checkbox" />
+            <label class="ac-label" for="venta">Venta<i class="arrow"></i></label>
+            <ul class="ac-text ac-sub">
+              <li><label class="ac-label" name="referidos-propios">Clientes Referidos</label></li>
+            </ul>
+          </li>
+          <!-- Fin elemento acordeon -->
+          <!-- Elemento acordeon -->
+          <li class="nav-title">
+            <input class="ac-input" id="alertas" name="alertas" type="checkbox" />
+            <label class="ac-label" for="alertas">Mis Alertas<i class="arrow"></i><div class="circle-alert">33</div></label>
+            <ul class="ac-text ac-sub">
+              <li><label class="ac-label a">Reclamos<span>10</span></label></li>
+              <li><label class="ac-label a">NPS negativo<span>13</span></label></li>
+              <li><label class="ac-label a">Carta de desafiliación<span>10</span></label></li>
+            </ul>
+          </li>
+          <!-- Fin elemento acordeon -->
+          <!-- Elemento acordeon -->
+          <li class="nav-title">
+            <input class="ac-input" id="maletin" name="maletin" type="checkbox" />
+            <label class="ac-label" for="maletin" name="maletin">Mi Maletín</label>
+          </li>
+          <!-- Fin elemento acordeon -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <ol class="breadcrumb">
+        <li>Estás en: </li>
+        <li>Inicio</li>
+        <li>Prospectos</li>
+      </ol>
+    </div>
+  </div>
+  <div class="container no-paddingMobile">
+    <div class="row">
+      <div class="head-title hide-desk">
+        <h2>Busca a un cliente</h2>
+        <div class="finder search-box">
+          <form action="">
+            <input type="text" placeholder="¿Buscas un prospecto?">
+            <button type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+      <div class="head-title">
+        <h2>Plan Carrera</h2>
+        <p>Total: 100</p>
+      </div>
+      <form action="">
+        <div class="row">
+          <div class="tab-cloud">
+            <!-- tab-cloud -->
+            <a class="cloud asig open" href="#" data-tab="tab-a" title="125 Asignados">125 <span>Asignados</span></a>
+            <a class="cloud contact" href="#" data-tab="tab-b" title="12 Contacto">12 <span>Contacto</span></a>
+            <a class="cloud interv" href="#" data-tab="tab-c" title="6 Entrevista">6 <span>Entrevista</span></a>
+            <a class="cloud doc" href="#" data-tab="tab-d" title="9 Documento">9 <span>Documento</span></a>
+            <a class="cloud closed" href="#" data-tab="tab-e" title="2 Cerrados">2 <span>Cerrados</span></a>
+          </div><!-- fin tab-cloud -->
+
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <ul class="label-det">
+        <li><span class="label-round his">H</span> Historial</li>
+      </ul>
+    </div>
+
+    <div class="row">
+      <div class="info-tab">
+        <!-- info-tab -->
+        <div id="tab-a" class="content-tab current">
+          <div class="responsive-tbl">
+            <table class="table-brand noPadding" cellpadding="0" cellspacing="0" border="0">
+              <thead>
+                <tr>
+                  <th class="pd-r-2em">Nombre</th>
+                  <th>RUT</th>
+                  <th>Estado</th>
+                  <th></th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                </tr>
+              </thead>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-asig"><span class="label-round his"><a href="historial.html">H</a></span>Roberto Andrés Perez Zañartu</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li><strong>Email:</strong> juan.pablo.munoz@gmail.cl</li>
+                          <li><strong>Email 2:</strong> juan.munoz@hotmail.cl</li>
+                          <li><strong>Teléfono 1:</strong> +569 9229 2435</li>
+                          <li><strong>Teléfono 2:</strong> +562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Dirección:</strong> Valentin Letelier 2088, dpto 68</li>
+                          <li><strong>Región:</strong> Metropolitana</li>
+                          <li><strong>Comuna:</strong> Santiago</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-asig"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés Perez Zañartu</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-asig"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-asig"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés Perez Zañartu</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-asig"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="content-pagination">
+            <!-- content-pagination -->
+            <nav>
+              <ul class="pagination">
+                <li>
+                  <a href="#" aria-label="Previous" class="arrow-pag disabled">
+                    ‹ <span class="hidden-xs label-pag">Página anterior</span>
+                  </a>
+                </li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">10</a></li>
+                <li>
+                  <a href="#" aria-label="Next" class="arrow-pag">
+                    <span class="hidden-xs label-pag">Página siguiente</span> ›
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div><!-- fin content-pagination -->
+        </div>
+
+        <div id="tab-b" class="content-tab">
+          <div class="responsive-tbl">
+            <table class="table-brand noPadding" cellpadding="0" cellspacing="0" border="0">
+              <thead>
+                <tr>
+                  <th class="pd-r-2em">Nombre</th>
+                  <th>RUT</th>
+                  <th>Estado</th>
+                  <th> </th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                </tr>
+              </thead>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-contact"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-contact"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-contact"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-contact"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-contact"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="content-pagination">
+            <!-- content-pagination -->
+            <nav>
+              <ul class="pagination">
+                <li>
+                  <a href="#" aria-label="Previous" class="arrow-pag disabled">
+                    ‹ <span class="hidden-xs label-pag">Página anterior</span>
+                  </a>
+                </li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">10</a></li>
+                <li>
+                  <a href="#" aria-label="Next" class="arrow-pag">
+                    <span class="hidden-xs label-pag">Página siguiente</span> ›
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div><!-- fin content-pagination -->
+        </div>
+
+        <div id="tab-c" class="content-tab">
+          <div class="responsive-tbl">
+            <table class="table-brand noPadding" cellpadding="0" cellspacing="0" border="0">
+              <thead>
+                <tr>
+                  <th class="pd-r-2em">Nombre</th>
+                  <th>RUT</th>
+                  <th>Estado</th>
+                  <th> </th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                </tr>
+              </thead>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-interv"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-interv"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-interv"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-interv"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-interv"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="content-pagination">
+            <!-- content-pagination -->
+            <nav>
+              <ul class="pagination">
+                <li>
+                  <a href="#" aria-label="Previous" class="arrow-pag disabled">
+                    ‹ <span class="hidden-xs label-pag">Página anterior</span>
+                  </a>
+                </li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">10</a></li>
+                <li>
+                  <a href="#" aria-label="Next" class="arrow-pag">
+                    <span class="hidden-xs label-pag">Página siguiente</span> ›
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div><!-- fin content-pagination -->
+        </div>
+
+        <div id="tab-d" class="content-tab">
+          <div class="responsive-tbl">
+            <table class="table-brand noPadding" cellpadding="0" cellspacing="0" border="0">
+              <thead>
+                <tr>
+                  <th class="pd-r-2em">Nombre</th>
+                  <th>RUT</th>
+                  <th>Estado</th>
+                  <th> </th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                </tr>
+              </thead>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-doc"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-doc"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-doc"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-doc"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-doc"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="content-pagination">
+            <!-- content-pagination -->
+            <nav>
+              <ul class="pagination">
+                <li>
+                  <a href="#" aria-label="Previous" class="arrow-pag disabled">
+                    ‹ <span class="hidden-xs label-pag">Página anterior</span>
+                  </a>
+                </li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">10</a></li>
+                <li>
+                  <a href="#" aria-label="Next" class="arrow-pag">
+                    <span class="hidden-xs label-pag">Página siguiente</span> ›
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div><!-- fin content-pagination -->
+        </div>
+
+        <div id="tab-e" class="content-tab">
+          <div class="responsive-tbl">
+            <table class="table-brand noPadding" cellpadding="0" cellspacing="0" border="0">
+              <thead>
+                <tr>
+                  <th class="pd-r-2em">Nombre</th>
+                  <th>RUT</th>
+                  <th>Estado</th>
+                  <th> </th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                  <th class="txt-center"></th>
+                </tr>
+              </thead>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-closed"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-closed"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-closed"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-closed"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="8">
+                  <table class="table-brand click-tbl">
+                    <tr class="table-outside">
+                      <td class="pd-r-2em state-closed"><span class="label-round his"><a href="historial.html">H</a></span> Roberto Andrés</td>
+                      <td>8.770.741-5</td>
+                      <td>Vigente</td>
+                      <td> </td>
+                      <td class="txt-center"><a class="btn-icon btn-edit" href="edita-datos.html" title="Editar"><i class="icon icon-edit"></i><span>Editar</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-config" href="gestionar_carrera.html" title="Gestión"><i class="icon icon-config"></i><span>Gestión</span></a></td>
+                      <td class="txt-center"><a class="btn-icon btn-simula open-modal" href="#nueva-gestion" title="Simular"><i
+                            class="icon icon-simula"></i><span>Simular</span></a></td>
+                    </tr>
+                    <tr>
+                      <td class="pd-r-2em" colspan="8">
+                        <ul class="data-list">
+                          <li><strong>Fecha nacimiento:</strong> 24/09/1978</li>
+                          <li>juan.pablo.munoz@gmail.cl</li>
+                          <li>+569 9229 2435</li>
+                          <li>+562 2244 4405</li>
+                        </ul>
+                        <ul class="data-list">
+                          <li><strong>Ingreso:</strong> 10/05/2017</li>
+                          <li><strong>Asignado:</strong> 10/05/2017</li>
+                          <li class="state-orange state-a"><strong>Estado:</strong> Entrevista</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="content-pagination">
+            <!-- content-pagination -->
+            <nav>
+              <ul class="pagination">
+                <li>
+                  <a href="#" aria-label="Previous" class="arrow-pag disabled">
+                    ‹ <span class="hidden-xs label-pag">Página anterior</span>
+                  </a>
+                </li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">10</a></li>
+                <li>
+                  <a href="#" aria-label="Next" class="arrow-pag">
+                    <span class="hidden-xs label-pag">Página siguiente</span> ›
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div><!-- fin content-pagination -->
+        </div>
+
+
+      </div><!-- fin info-tab -->
+    </div>
+  </div>
+
+  <div id="nueva-gestion" class="small-dialog zoom-anim-dialog mfp-hide">
+    <h2>¿Desea realizar una nueva simulación o continuar con la anterior?</h2>
+    <div class="form-style">
+      <form action="simular.html">
+        <div class="form-control">
+          <div class="mobile-radio">
+            <input type="radio" id="success" name="result" />
+            <label for="success">Nueva simulación</label>
+          </div>
+          <div class="mobile-radio">
+            <input type="radio" id="noSuccess" name="result" />
+            <label for="noSuccess">Continuar simulación</label>
+          </div>
+        </div>
+        <div class="form-control">
+          <button type="submit" class="button button-block button-primary"><span>Continuar</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!--<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>-->
+  <script src="js/jquery.min-3.2.1.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.rut.min.js"></script>
+  <script src="js/funciones.js"></script>
+  <script src="js/new-elem_home.js"></script>
+
+</body>
+
+</html>
